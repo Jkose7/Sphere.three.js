@@ -47,11 +47,21 @@ nav ul {
 
 @media (max-width: 800px) {
   .title {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   nav {
     position: relative;
-    padding: 1rem 3rem;
+    font-size: 16px;
+    padding: 24px 3rem;
+  }
+
+  nav h1{
+    font-size: 14px;
+  }
+
+  nav ul{
+    gap: 12px;
+    font-size: 10px;
   }
 }
