@@ -71,7 +71,7 @@ const controls = new OrbitControls(camera, canvas)
 controls.enableDamping = true
 controls.target.set(0, 0, 0); // Establece el punto de enfoque en el centro de la escena
 controls.autoRotate = true
-controls.rotateSpeed = 5
+controls.autoRotateSpeed = 5
 controls.enablePan = false
 controls.enableZoom = false
 
