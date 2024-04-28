@@ -1,7 +1,7 @@
 import './style.css'
-import * as THREE from 'three'
-import gsap from 'gsap'
-import { OrbitControls } from 'three/examples/jsm/Addons.js'
+import * as THREE from '/three'
+import gsap from '/gsap'
+import { OrbitControls } from '/three/examples/jsm/Addons.js'
 
 //BASIC
 
